@@ -1,0 +1,226 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+
+body {
+	margin: 0;
+	background: #96bbaa url(../images/tex_paper.png);
+	font-family: 'Arbutus Slab', Georgia, serif;
+	font-size: 11pt;
+	line-height: 16pt;
+	color: #e4eae6;
+}
+
+h1 {
+	font-family: 'Open Sans Condensed', 'Trebuchet MS', Arial, sans-serif;
+	font-size: 25pt;
+	font-weight: normal;
+	color:rgba(255,230,162,0.7);//#ffe6a2;
+	font-size: 43pt;
+	text-align: center;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 10px 0px;
+}
+
+h2 {
+	font-family: 'Open Sans Condensed', 'Trebuchet MS', Arial, sans-serif;
+	font-weight: normal;
+	font-size: 13pt;
+	margin: 0px 0px;
+
+}
+
+a {
+	color: #ffe6a2;
+	text-decoration: none;
+}
+
+img.pic {
+	border: 5px solid rgba(255,255,255,0.3);
+}
+	
+.fit100 {
+	max-width: 96.5%;
+	}	
+
+.rel {
+	position: relative;
+}
+
+.abs {
+	position: absolute;
+}
+.outer-wrap {
+	padding: 0 10px;
+	width: 350px;
+	margin: 0 auto;
+}
+.wrapper {
+	width: 350px;
+	height: auto;
+	background: #e56d15; //url(../images/tex_paper.png);
+	margin: 0 auto;
+	box-shadow: 0 0 9px 0px rgba(0,0,0,0.7);
+	
+}
+
+.header {
+	height: 225px;
+	background: #c9dad2 url(../images/head.jpg);
+	border-radius: 0 0 30px 30px;
+	box-shadow: 0 5px 11px -3px rgba(0,0,0,0.5);
+	padding: 9px 0 5px 19px;
+	overflow: hidden;
+}
+
+#logo {
+	border:0;
+	//width: 33%;
+}
+
+#slogan {
+	margin-top: -10px;
+	border:0;
+	}
+
+.nav {
+	top: 138px;
+	right: 0;
+	width: 260px;
+	background: #96bbaa; //url(../images/tex_paper.png);
+	padding: 0px 15px;
+	text-align: right;
+	font-family: 'Open Sans Condensed', 'Trebuchet MS', Arial, sans-serif;
+	font-weight: 700;
+	font-size: 14pt;
+	text-transform:uppercase;
+	line-height: normal;
+	border-top: 5px solid #e56d15;
+	border-bottom: 5px solid #e56d15;
+	border-radius: 5px 0 0 5px;
+	box-shadow: 5px 5px 11px -3px rgba(0,0,0,0.5);
+}
+
+.nav-item {
+	margin-left: -6px;
+	padding: 0 10px;
+	border-left: 1px solid #7d9c8e;
+	color: #ffedbd;
+	vertical-align:middle;
+}
+
+.nav-item:first-child {
+	border-left: 0;
+}
+
+.nav-item:last-child {
+	border-right: 0;
+}
+
+a.nav-item:active {
+	top:-1px;
+	text-shadow: 0px 3px 1px rgba(0,0,0,0.4);
+	}
+
+.content {
+ //color: inherit;
+	padding: 30px;
+	overflow: auto;
+}
+
+.b50 {
+	width:48%;
+	margin: 35px 6px 10px;
+	float:left;
+}
+
+.b33 {
+	margin: 30px 0px 0px;
+	float:left;
+	width: 100%;
+}
+
+.box-head {
+	//position:absolute;
+	//top:-20px;
+	padding-left: 20px;
+	font-family: 'Arbutus Slab', Georgia, serif;
+	font-size:20pt;
+	color: #ab510f;//rgba(0,0,0,0.25);
+	margin-top: 0px;
+	text-transform:uppercase;
+	font-weight: normal;
+	}
+
+.box {
+	//width: 100%;
+	background: rgba(0,0,0,0.25);//255,237,189,0.3);
+	border-radius: 10px;
+	padding: 8px;
+	position: relative;
+	margin: -1px 0 15px 0;
+	color: #e4eae6;
+	
+	font-family: 'Open Sans Condensed', 'Trebuchet MS', Arial, sans-serif;
+	//font-weight: 700;
+	font-size: 13pt;
+	overflow: auto;
+
+	text-align: center;
+}
+
+.center-content {overflow: hidden;}
+	
+.serving {
+	font-family: 'Open Sans Condensed', 'Trebuchet MS', Arial, sans-serif;
+	
+}
+.day_title {
+	float:left;
+	clear:both;}
+.day_hour {
+	float:right;
+	clear:both;}
+
+.footer {
+	
+	float:none;
+	text-align: center;
+	font-family: 'Open Sans Condensed', 'Trebuchet MS', Arial, sans-serif;
+	font-size: 10pt;
+}
+
+
+.Button {
+    -webkit-box-sizing:border-box;
+    display:block;
+    width:255px;
+	margin: 0 auto;
+    height:45px;
+	font-family: helvetica, arial, sans-serif;
+    line-height:45px;
+    text-align:center;
+    overflow:hidden;
+    white-space:nowrap;
+    background: #9f0b0b -webkit-gradient(linear, 0 0, 0 100%, color-stop(0.05, #cf0707 ), to(#790000));
+    font-size:25px;
+    font-weight:bold;
+    color: #fff;
+    text-shadow:0 -1px 0 rgba(0, 0, 0, 0.7);
+    border: 1px solid #790000;
+    -webkit-border-radius: 5px;
+    -webkit-box-shadow:0 1px 3px rgba(0, 0, 0, 0.5);
+    -webkit-background-clip:padding-box;
+	margin-top:15px;
+	
+    text-transform:uppercase;
+}
+.greenButton:active {
+    background:#5eae0f -webkit-gradient(linear, 0 0, 0 100%, color-stop(0.05, #3e8c01), to(#60bc03));
+}
+
+
+.spacer {
+	margin:10px 0;}

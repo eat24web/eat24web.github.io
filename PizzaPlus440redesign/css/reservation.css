@@ -1,0 +1,35 @@
+#div_container{
+	 width:459px; height:220px; 
+	 float:left; 
+	 position:relative; 
+	 text-align:center;
+	 margin-left:274px;
+}
+.marginTop{
+	 margin-top:30px;
+}
+.reservation{	
+     background:url(../images/reservation_opentable.png) no-repeat;
+	 margin-left:28px;
+}
+.reservation .title{
+	color:#d0d0bf; 
+	font-size:40px; 
+	font-weight:bold;
+	position: absolute;
+	bottom:110px; 
+	right:44px;
+}
+.reservation .btn_order{
+	position:absolute; 
+	bottom:54px; 
+	right:38px;
+}
+.openTable_logo{
+	position:absolute; 
+	bottom:0px; 
+	right:0px;
+}
+.hidden{
+	display:none;
+}

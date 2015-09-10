@@ -1,0 +1,89 @@
+{
+	"rest": {
+		"id": 19119,
+		"name": "Pizza Plus",
+		"zip": "07304",
+		"state": "NJ",
+		"city": "Jersey City",
+		"street": "701 State Rd 440",
+		"phone": "(201) 435-3777",
+		"lat": "40.720962",
+		"lng": "-74.092767",
+		"logo": "http:\/\/eat24hours.com\/\/files\/logo\/19119.jpg?e24v=101",
+		"menu_url": ""
+	},
+
+	"nav": {
+		"home": "index.php",
+		"menu": "menu.php",
+		"location": "location.php",
+		"order online": "http://eat24hrs.com/restaurants/order2/index.php?id=19119",
+		"about": "about.html"
+	},
+
+
+	"info": {
+		"delivery_hours": [
+			{
+				"title": "Mon:",
+				"info": "11:00 AM to 11:00 PM"
+			},
+			{
+				"title": "Tue:",
+				"info": "11:00 AM to 11:00 PM"
+			},
+			{
+				"title": "Wed:",
+				"info": "11:00 AM to 11:00 PM"
+			},
+			{
+				"title": "Thu:",
+				"info": "11:00 AM to 11:00 PM"
+			},
+			{
+				"title": "Fri:",
+				"info": "11:00 AM to 11:30 PM"
+			},
+			{
+				"title": "Sat:",
+				"info": "10:00 AM to 11:30 PM"
+			},
+			{
+				"title": "Sun:",
+				"info": "10:00 AM to 11:00 PM"
+			},
+			{
+				"title": "Weekend Brunch:",
+				"info": "10:00 AM to 3:00 PM"
+			}
+		],
+		"ordering_info": [
+			{
+				"title": "Min Order:",
+				"info": "$10"
+			},
+			{
+				"title": "Delivery Charge:",
+				"info": "Free"
+			},
+			{
+				"title": "Payment Options:",
+				"info": "<img src=\"assets\/images\/cc_cash.jpg\" width=\"40\" height=\"27\" border=\"0\" hspace=\"2\" vspace=\"2\" title=\"CASH\" alt=\"CASH\"><img src=\"assets\/images\/cc_visa.jpg\" width=\"40\" height=\"27\" border=\"0\" hspace=\"2\" vspace=\"2\" title=\"VISA\" alt=\"VISA\"><img src=\"assets\/images\/cc_master.jpg\" width=\"40\" height=\"27\" border=\"0\" hspace=\"2\" vspace=\"2\" title=\"MASTER\" alt=\"MASTER\"><img src=\"assets\/images\/cc_discover.jpg\" width=\"40\" height=\"27\" border=\"0\" hspace=\"2\" vspace=\"2\" title=\"DISCOVER\" alt=\"DISCOVER\"><img src=\"assets\/images\/cc_cashcoupon.jpg\" width=\"40\" height=\"27\" border=\"0\" hspace=\"2\" vspace=\"2\" title=\"CASHCOUPON\" alt=\"CASHCOUPON\">"
+			},
+			{
+				"title": "Contact:",
+				"info": "(215) 574-0586"
+			},
+			{
+				"title": "Serving:",
+				"info": "American<br>Comfort<br>Sandwiches<br>Salads<br>Weekend Brunch<br>Ice Cream<br>Desserts"
+			}
+		]
+	},
+	"config": {
+		"default_layout": "default",
+		"default_page": "home",
+		"email_from":"test@gmail.com",
+		"email_to":"test@gmail.com"
+	}
+}
