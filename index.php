@@ -1,33 +1,8 @@
-<!doctype html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Eat24web.GitHub.io by eat24web</title>
+<head>
+  <title>EAT24 Web</title>
+</head>
+<body>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>Eat24web.GitHub.io</h1>
-        <p>ü</p>
-
-
-        <p class="view"><a href="https://github.com/eat24web">View My GitHub Profile</a></p>
-
-      </header>
-      <section>
-        <h1>
-<a id="eat24-web-projects" class="anchor" href="#eat24-web-projects" aria-hidden="true"><span class="octicon octicon-link"></span></a>Eat24 web projects</h1>
-      </section>
-      <footer>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
-    </div>
-    
-  </body>
+</body>
 </html>
